@@ -44,6 +44,11 @@ This PHP and MySQL-based application enables schools to manage students, teacher
 # 🚀 Weboldal
 https://ssm.frankie-webdesign.hu/
 
+👨‍💻 Fejlesztő / Developer
+
+Ferenc Szijarto
+Junior Webfejlesztő | Junior Web Developer
+LinkedIn • Portfolio
 
 
 
