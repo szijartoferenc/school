@@ -1,4 +1,4 @@
-🏫 Iskolai Jegykezelő és Osztálynapló Rendszer | School Grade Management System
+## 🏫 Iskolai Jegykezelő és Osztálynapló Rendszer | School Grade Management System
 
 Ez a PHP és MySQL alapú alkalmazás lehetővé teszi az iskolák számára a diákok, tanárok, tantárgyak és osztályok kezelését, valamint az érdemjegyek rögzítését és nyilvántartását.
 
@@ -21,7 +21,7 @@ This PHP and MySQL-based application enables schools to manage students, teacher
 
     🎓 Magyar jegyrendszer: 1 – Elégtelen ... 5 – Jeles
 
-🇬🇧 Features (English)
+# 🇬🇧 Features (English)
 
     👩‍🏫 Multiple user roles: administrator, teacher
 
@@ -38,6 +38,11 @@ This PHP and MySQL-based application enables schools to manage students, teacher
     🔐 Login and permission management
 
     🎓 Hungarian grading system: 1 – Fail ... 5 – Excellent
+
+![image](https://github.com/user-attachments/assets/47e6ff23-35f2-43d7-9d89-4b1636ca1565)
+
+# Weboldal
+https://ssm.frankie-webdesign.hu/
 
 
 
