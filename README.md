@@ -39,6 +39,6 @@ This PHP and MySQL-based application enables schools to manage students, teacher
 
     🎓 Hungarian grading system: 1 – Fail ... 5 – Excellent
 
-    #Kezdőoldal
-    ![image](https://github.com/user-attachments/assets/deafbbd0-fce5-4654-b74f-f426041d48dd)
+
+
 
