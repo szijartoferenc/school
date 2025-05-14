@@ -41,7 +41,7 @@ This PHP and MySQL-based application enables schools to manage students, teacher
 
 ![image](https://github.com/user-attachments/assets/47e6ff23-35f2-43d7-9d89-4b1636ca1565)
 
-# Weboldal
+# 🚀 Weboldal
 https://ssm.frankie-webdesign.hu/
 
 
