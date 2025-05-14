@@ -1,0 +1,162 @@
+/* ---------------------------------------
+   Alapértelmezett betűk és háttér beállítások
+------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* Általános betűkészlet */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Háttérkép alkalmazása főoldalhoz és bejelentkező oldalhoz */
+.body-home, .body-login {
+  background: #333 url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Sötét áttetsző réteg a tartalom mögött az olvashatóság javítására */
+.black-fill {
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+}
+
+/* ---------------------------------------
+   Navigációs sáv
+------------------------------------------ */
+#homeNav {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* ---------------------------------------
+   Üdvözlő szekció
+------------------------------------------ */
+.welcome-text {
+  min-height: 80vh;
+}
+
+/* Logó mérete */
+.welcome-text img {
+  width: 500px;
+  height: 500px;
+}
+
+/* Üdvözlő cím stílus – dekoratív betűtípus */
+.welcome-text h4 {
+  color: #eee;
+  font-size: 48px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+/* Szlogen háttérrel, hogy jobban kiemelkedjen */
+.welcome-text p {
+  color: #000;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* ---------------------------------------
+   Újrafelhasználható layout osztályok
+------------------------------------------ */
+
+/* Központosított tartalmi doboz */
+.responsive-box {
+  max-width: 600px;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+/* Cím dekorációhoz */
+.section-title {
+  font-family: 'Lobster', cursive;
+  font-size: 28px;
+  text-align: center;
+}
+
+/* ---------------------------------------
+   About szekció
+------------------------------------------ */
+#about {
+  min-height: 100vh;
+}
+
+ /*.about-card {
+  használja a responsive-box közös stílusait 
+}
+
+/* ---------------------------------------
+   Kapcsolat szekció
+------------------------------------------ */
+#contact {
+  min-height: 100vh;
+}
+
+ /*.contact-form {
+  használja a responsive-box közös stílusait 
+}*/
+
+.contact-form h3 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 20px;
+}
+
+/* Szövegmező tiltása az átméretezésre */
+textarea {
+  resize: none;
+}
+
+/* ---------------------------------------
+   Bejelentkezés panel
+------------------------------------------ */
+.login {
+  max-width: 500px;
+  width: 90%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* ---------------------------------------
+   Egyéb hasznos osztályok
+------------------------------------------ */
+
+/* Szélesebb formázáshoz */
+.w-450 {
+  width: 450px;
+}
+
+/* Táblázatokhoz */
+.n-table {
+  max-width: 800px;
+}
+
+/* Form konténerekhez */
+.form-w {
+  max-width: 600px;
+  width: 100%;
+}
+
+/* ---------------------------------------
+   Reszponzív finomhangolás mobilra
+------------------------------------------ */
+@media (max-width: 576px) {
+  .login h3 {
+    font-size: 30px;
+  }
+
+  .welcome-text h4 {
+    font-size: 36px;
+  }
+}
